@@ -31,30 +31,32 @@ This repository contains:
 ## Datasets
 
 Datasets necessary for this implementation can be downloaded by clicking 
-[Dog Dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip)
+[Dog Dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip)  
+
 [Human Dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip)
 
 ## List of Hyperparameters used:
 
 1. Custom CNN Model
-* Model = **1024 Conv2d Model**
-* Number of Fully Connected Layer = **2**  
-* Fully Connection Layers = **2**  
-* Batch Size = **32**  
-* Epoch = **20**  
+	* Model = **1024 Conv2d Model**
+	* Number of Fully Connected Layer = **2**  
+	* Fully Connection Layers = **2**  
+	* Batch Size = **32**  
+	* Epoch = **20**  
 
-* Loss Function = **CrossEntropyLoss**  
-* Optimizer  = **SGD**  
-* Initial Learning Rate, Momentum = **0.002, 0.9**  
+	* Loss Function = **CrossEntropyLoss**  
+	* Optimizer  = **SGD**  
+	* Initial Learning Rate, Momentum = **0.002, 0.9**  
+
 
 2. CNN Transfer Learning Model
-* Model = **ResNet-50**
-* Trained Layer = **Only Fully connected Layer since dataset is small and similer to original training data**  
-* Number of Fully Connection Layers = **2**  
-* Batch Size = **32**  
-* Epoch = **15**  
+	* Model = **ResNet-50**
+	* Trained Layer = **Only Fully connected Layer since dataset is small and similer to original training data**  
+	* Number of Fully Connection Layers = **2**  
+	* Batch Size = **32**  
+	* Epoch = **15**  
 
-* Loss Function = **CrossEntropyLoss**  
-* Optimizer  = **Adam**  
-* Initial Learning Rate = **0.001**  
+	* Loss Function = **CrossEntropyLoss**  
+	* Optimizer  = **Adam**  
+	* Initial Learning Rate = **0.001**  
 
