@@ -30,7 +30,7 @@ This repository contains:
 					  
 ## Datasets
 
-Datasets necessary for this implementation can be downloaded by clicking 
+Datasets necessary for this implementation can be downloaded by clicking  
 [Dog Dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip)  
 
 [Human Dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip)
