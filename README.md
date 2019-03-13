@@ -12,8 +12,8 @@ Below are some samples of classify dog breeds:
 <img src="dog-classifier-result2.png">
 
 2. Deteced Human
-<img src="human-resemble-dog-result1.jpg">
-<img src="human-resemble-dog-result2.jpg">
+<img src="human-resemble-dog-result1.png">
+<img src="human-resemble-dog-result2.png">
 
 There are 3 main parts of this model:
 
